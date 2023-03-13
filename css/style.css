@@ -3,116 +3,141 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+}
   
-  body {
+body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #fff;
     background-color: #1d1d1d;
-  }
+}
   
-  img {
+img {
     max-width: 100%;
     height: auto;
     display: block;
-  }
+}
   
-  a {
+a {
     color: #fff;
     text-decoration: none;
-  }
+}
   
-  ul {
+ul {
     list-style: none;
-  }
+}
   
-  /* Header */
-  header {
+/* Header */
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     background-color: #1c1c1c;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  }
+}
   
-  nav {
+nav {
     display: flex;
-  }
+}
   
-  nav ul {
+nav ul {
     display: flex;
-  }
+}
   
-  nav li {
+nav li {
     margin-left: 1rem;
-  }
+}
   
-  nav a:hover {
+nav a:hover {
     border-bottom: 2px solid #9b4b0e;
-  }
+}
   
   /* Main */
-  main {
+main {
     padding: 2rem;
-  }
+}
   
-  h2 {
+h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
     text-align: center;
-  }
+}
   
-  #about img {
+#about img {
     margin: 2rem auto;
     display: block;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  }
+}
   
-  #about p {
+#about p {
     margin-bottom: 2rem;
     text-align: justify;
-  }
+}
   
-  #updates ul {
+#updates ul {
     margin-bottom: 2rem;
-  }
+}
   
-  #updates li {
+#updates li {
     margin-bottom: 1rem;
-  }
+}
   
-  #buy ul {
+#buy ul {
     display: flex;
     justify-content: center;
-  }
+}
   
-  #buy li {
+#buy li {
     margin-right: 2rem;
-  }
+}
   
-  #buy li:last-of-type {
+#buy li:last-of-type {
     margin-right: 0;
-  }
+}
   
-  #buy a:hover {
+#buy a:hover {
     color: #9b4b0e;
-  }
+}
   
   /* Footer */
-  footer {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     background-color: #1c1c1c;
     box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.16);
-  }
+}
   
-  footer p {
+footer p {
     margin-left: 1rem;
     font-size: 0.9rem;
-  }
+}
+
+.social-icons {
+    flex: 1;
+    text-align: right;
+    
+}
   
+.social-icons a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color:#282c34;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    transition: all 0.2s ease-in-out;
+}
+  
+.social-icons a:hover {
+    transform: scale(1.1);
+    background-color: #282c34;
+    color: white;
+    text-shadow: 0px 5px 5px #858383;
+}
