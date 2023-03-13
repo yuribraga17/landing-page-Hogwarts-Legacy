@@ -76,6 +76,12 @@ h2 {
     text-align: justify;
 }
   
+#updates img {
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
 #updates ul {
     margin-bottom: 2rem;
 }
@@ -83,7 +89,18 @@ h2 {
 #updates li {
     margin-bottom: 1rem;
 }
-  
+
+#updates p {
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+ 
+#buy p {
+    margin-bottom: 2rem;
+    text-align: justify;
+    text-align: center !important;
+}
+
 #buy ul {
     display: flex;
     justify-content: center;
@@ -100,7 +117,10 @@ h2 {
 #buy a:hover {
     color: #9b4b0e;
 }
-  
+ 
+
+
+
   /* Footer */
 footer {
     display: flex;
@@ -108,6 +128,7 @@ footer {
     align-items: center;
     padding: 1rem;
     background-color: #1c1c1c;
+    
     box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.16);
 }
   
