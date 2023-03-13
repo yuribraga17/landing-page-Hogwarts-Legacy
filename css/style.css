@@ -1,70 +1,118 @@
-/* reset CSS */
+/* Global Styles */
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
   
-  /* fontes personalizadas */
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
-  
-  /* estilo global */
   body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    line-height: 1.5;
     color: #fff;
-    background-color: #0F0E17;
+    background-color: #1d1d1d;
   }
   
-  /* estilização do header */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Header */
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #0F0E17;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
+    padding: 1rem;
+    background-color: #1c1c1c;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   }
   
-  header img {
-    width: 100px;
-  }
-  
-  nav ul {
-    list-style: none;
+  nav {
     display: flex;
   }
   
-  nav ul li {
-    margin-right: 20px;
+  nav ul {
+    display: flex;
   }
   
-  nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    transition: all 0.3s ease;
-    border-bottom: 2px solid transparent;
+  nav li {
+    margin-left: 1rem;
   }
   
-  nav ul li a:hover {
-    border-bottom: 2px solid #BB0A21;
+  nav a:hover {
+    border-bottom: 2px solid #9b4b0e;
   }
   
-  /* estilização do main */
+  /* Main */
   main {
-    padding-top: 90px;
+    padding: 2rem;
   }
   
-  section {
-    padding: 80px 40px;
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
   }
   
-  section h2 {
-    font-size: 36px;
-    margin-bottom: 40
+  #about img {
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  #about p {
+    margin-bottom: 2rem;
+    text-align: justify;
+  }
+  
+  #updates ul {
+    margin-bottom: 2rem;
+  }
+  
+  #updates li {
+    margin-bottom: 1rem;
+  }
+  
+  #buy ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #buy li {
+    margin-right: 2rem;
+  }
+  
+  #buy li:last-of-type {
+    margin-right: 0;
+  }
+  
+  #buy a:hover {
+    color: #9b4b0e;
+  }
+  
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1c1c1c;
+    box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  footer p {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+  }
   
